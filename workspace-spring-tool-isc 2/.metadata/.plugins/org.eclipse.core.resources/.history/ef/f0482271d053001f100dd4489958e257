@@ -1,0 +1,5 @@
+package ir.freeland.spring.realworldexamplesreport.reports;
+
+public class ReportDto {
+
+}

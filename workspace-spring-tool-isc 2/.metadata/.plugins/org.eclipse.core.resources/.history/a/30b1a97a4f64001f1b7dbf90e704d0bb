@@ -1,0 +1,19 @@
+package ir.freeland.springboot.query;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.PropertySource;
+
+@SpringBootApplication
+//@ComponentScan("com.baeldung.jpa.query")
+//@EnableJpaRepositories("com.baeldung.jpa.query")
+@EntityScan (basePackages = "ir.freeland.springboot.query")
+@PropertySource("classpath:application-query.properties")
+public class QueryApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(QueryApplication.class, args);
+    }
+
+}

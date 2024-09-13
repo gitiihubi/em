@@ -1,0 +1,17 @@
+1724127227520	Move compilation unit
+1724128284580	Rename package 'ir.freeland.spring.scope'
+1724128326323	Rename type 'ScopeApplication'
+1724128397022	Rename type 'ScopesConfig'
+1724128428044	Rename type 'SpringScope'
+1724128819800	Rename local variable 'personSingletonA'
+1724128829261	Rename local variable 'personSingletonB'
+1724136855358	Copy package
+1724136878638	Rename type 'ApplicationEL'
+1724139295067	Copy compilation unit
+1724155422051	Copy package
+1724155428291	Delete elements
+1724155489702	Rename type 'ApplicationValidator'
+1724155734132	Move compilation unit
+1724155738904	Move compilation unit
+1724155934171	Delete element
+1724155940195	Delete element

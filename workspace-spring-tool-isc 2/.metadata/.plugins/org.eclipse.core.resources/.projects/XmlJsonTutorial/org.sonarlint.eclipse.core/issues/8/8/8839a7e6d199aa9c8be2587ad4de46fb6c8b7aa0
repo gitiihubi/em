@@ -1,0 +1,8 @@
+
+S
+java:S22017"/The return value of "orElseThrow" must be used.(ÜƒÛFHóRMAJORZBUG
+S
+java:S2201A"/The return value of "orElseThrow" must be used.(ÜƒÛFHôRMAJORZBUG
+Ž
+java:S14880"]Immediately return this expression instead of assigning it to the temporary variable "book1".(ìø³öøÿÿÿÿHðRMINORZ
+CODE_SMELL

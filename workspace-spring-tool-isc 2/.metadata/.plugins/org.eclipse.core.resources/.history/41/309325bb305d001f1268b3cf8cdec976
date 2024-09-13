@@ -1,0 +1,9 @@
+package generated;
+
+public class Staff {
+	private String firstName;
+	private String lastName;
+	private String age;
+	
+	
+}

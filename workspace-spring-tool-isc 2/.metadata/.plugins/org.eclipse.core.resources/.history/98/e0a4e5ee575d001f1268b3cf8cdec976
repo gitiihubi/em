@@ -1,0 +1,8 @@
+package ir.freeland.thread.synchronize;
+
+public class Snippet {
+	public static void main(String[] args) {
+		SynchronizedMethodExample 
+	}
+}
+

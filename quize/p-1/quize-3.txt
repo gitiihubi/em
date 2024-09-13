@@ -1,0 +1,4 @@
+@Value() -> this annotation get specific value to a field or parameter.
+we can use application.properties as a variable in value annotation "${}"
+also we can do expression within "#{}" -> Spring Expression Language
+.toUpperCase is a method in SpEL for uppercase String value

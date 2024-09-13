@@ -1,0 +1,5 @@
+package ir.freeland.spring.validator;
+
+public class Input {
+
+}

@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\Projects\\workspace-spring-tool\\java-algorithms\\.git;D\:\\Projects\\tutorials\\.git;D\:\\Projects\\spring-data-examples\\.git;D\:\\Projects\\workspace-spring-tool\\java-tips\\.git;D\:\\Projects\\workspace-spring-tool\\demo\\.git;D\:\\Projects\\workspace-spring-tool\\realworld-springboot-java\\.git;D\:\\Projects\\workspace-spring-tool\\cloud\\sample-spring-microservices-new\\.git;
+GitRepositoriesView.GitDirectories.relative=java-algorithms\\.git;D\:\\Projects\\tutorials\\.git;D\:\\Projects\\spring-data-examples\\.git;java-tips\\.git;demo\\.git;realworld-springboot-java\\.git;cloud\\sample-spring-microservices-new\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1

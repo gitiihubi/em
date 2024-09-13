@@ -1,0 +1,31 @@
+1722919298795	Delete elements
+1722919324923	Delete elements
+1722923147934	Rename package 'ir.freeland.spring'
+1722923226837	Rename package 'ir.freeland.spring.config'
+1722923240622	Rename package 'ir.freeland.spring.beans'
+1722923251636	Rename package 'ir.freeland.spring.processor'
+1722923326782	Delete element
+1722923982382	Copy file
+1722923992351	Rename resource 'scope'
+1722924066144	Rename resource 'scope.md'
+1722928432411	Rename package 'com.vipul'
+1722929367994	Delete element
+1722929571157	Rename package 'net.guides.springboot2.springaop'
+1722933210610	Rename type 'SpringBeanLifecycleApplication'
+1722933229537	Rename type 'SpringBeanScopesExampleApplication'
+1722933242055	Rename type 'Application'
+1722944759663	Copy package
+1722944790422	Copy package
+1722944797566	Delete element
+1722944811863	Copy package
+1722944821958	Delete element
+1722944834399	Rename type 'ApplicationAOP'
+1722944863283	Copy package
+1722944876594	Delete element
+1722944891081	Delete element
+1722944905726	Delete element
+1722944935693	Copy compilation unit
+1723268700988	Copy package
+1723268742267	Copy package
+1723268756368	Rename type 'Employee'
+1723268931078	Rename type 'ApplicationAOP'

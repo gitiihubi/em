@@ -1,0 +1,4 @@
+spring.application.name=SpringIOCDetailsTutorial
+
+logging.level.ir=trace
+logging.pattern.console=%msg%n

@@ -1,0 +1,47 @@
+package ir.freeland.springboot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import ir.freeland.springboot.persistence.base.JpaBaseInAction;
+import ir.freeland.springboot.persistence.lifecycle.LifecycleInAction;
+import ir.freeland.springboot.relation.manytomany.ManyToManyRun;
+import ir.freeland.springboot.relation.onetoone.foreignkeybased.ForeignKeyBasedRun;
+import ir.freeland.springboot.relation.onetoone.jointable.JointableRun;
+
+
+
+@SpringBootApplication
+@EnableJpaRepositories("ir.freeland.springboot.persistence.repo")
+@EntityScan(basePackages =  {"ir.freeland.springboot.persistence.model",
+							 "ir.freeland.springboot.relation"})
+public class SpringJPAApplication {
+
+
+	
+	public static void main(String[] args) {
+		ConfigurableApplicationContext context = SpringApplication.run(SpringJPAApplication.class, args);
+		
+		JpaBaseInAction JpaBaseInAction = context.getBean( JpaBaseInAction.class);
+		JpaBaseInAction.sampleRun();
+		
+		//LifecycleInAction lifeCycle = context.getBean( LifecycleInAction.class);
+		//lifeCycle.managedEntity();
+		
+		//ForeignKeyBased foreignKeyBased = context.getBean( ForeignKeyBased.class);
+		//foreignKeyBased.sampleRun();
+		
+//		Jointable jointable = context.getBean( Jointable.class);
+//		jointable.sampleRun();
+//		
+
+		ManyToManyRun ManyToManyRun = context.getBean( ManyToManyRun.class);
+		ManyToManyRun.sampleRun();
+		
+
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml-model href="note.xsd"?>
+<note>
+	<to>Tove</to>
+	<from>Jani</from>
+	<heading>Reminder</heading>
+</note>

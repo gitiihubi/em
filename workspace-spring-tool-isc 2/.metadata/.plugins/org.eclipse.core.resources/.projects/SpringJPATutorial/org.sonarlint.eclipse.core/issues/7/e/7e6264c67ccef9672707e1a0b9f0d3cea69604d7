@@ -1,0 +1,24 @@
+
+u
+java:S1854)"=Remove this useless assignment to local variable "students3".(¤ÿˆ¼ûÿÿÿÿ8ëĞöàˆ2HRMAJORZ
+CODE_SMELL
+f
+java:S1481)".Remove this unused "students3" local variable.(¤ÿˆ¼ûÿÿÿÿ8ëĞöàˆ2HRMINORZ
+CODE_SMELL
+o
+java:S1854 "=Remove this useless assignment to local variable "students2".(ŸşÔo8ëã¼Şˆ2H˜
+RMAJORZ
+CODE_SMELL
+n	java:S125-"<This block of commented-out lines of code should be removed.(ùÙŸ8ƒÛÍàˆ2HêRMAJORZ
+CODE_SMELL
+S
+java:S2201"(The return value of "size" must be used.(‚§‡O8ÚÉïßˆ2H¸RMAJORZBUG
+ˆ
+java:S1192"MDefine a constant instead of duplicating this literal "from Student" 3 times.(éó¥øÿÿÿÿ8ëĞöàˆ2H‰RCRITICALZ
+CODE_SMELL
+`
+java:S1481 ".Remove this unused "students2" local variable.(ŸşÔo8š‚ïàˆ2HıRMINORZ
+CODE_SMELL
+l
+java:S1874("4Remove this use of "saveOrUpdate"; it is deprecated.(äÑÖÒúÿÿÿÿ8Ë¿»êˆ2H¬RMINORZ
+CODE_SMELL

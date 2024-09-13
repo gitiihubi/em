@@ -1,0 +1,5 @@
+package ir.freeland.spring.profile;
+
+public interface DatasourceConfig {
+    void setup();
+}

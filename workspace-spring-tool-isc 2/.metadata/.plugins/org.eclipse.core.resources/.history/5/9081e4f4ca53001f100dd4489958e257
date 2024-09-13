@@ -1,0 +1,3 @@
+spring.application.name=SpringIOCDetailsTutorial
+
+logging.level.ir=trace

@@ -1,0 +1,30 @@
+package ir.freeland.spring.validator;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.expression.EvaluationContext;
+import org.springframework.expression.ExpressionParser;
+import org.springframework.expression.spel.standard.SpelExpressionParser;
+import org.springframework.expression.spel.support.StandardEvaluationContext;
+
+import ir.freeland.spring.el.model.Department;
+import ir.freeland.spring.el.model.Worker;
+
+@SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass = true)
+public class ApplicationValidator {
+	
+	@SuppressWarnings("unchecked")
+	public static void main(String[] args) throws ParseException {
+		ApplicationContext applicationContext =  SpringApplication.run(ApplicationValidator.class, args);
+		
+
+	}
+}

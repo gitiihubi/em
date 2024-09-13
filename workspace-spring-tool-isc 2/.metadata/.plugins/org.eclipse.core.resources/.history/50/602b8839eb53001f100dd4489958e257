@@ -1,0 +1,24 @@
+package ir.freeland.spring.formating;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+import ir.freeland.spring.aop.service.EmployeeService;
+import ir.freeland.spring.formating.model.Employee;
+
+@SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass = true)
+public class ApplicationFormating {
+	
+	public static void main(String[] args) {
+		ApplicationContext applicationContext =  SpringApplication.run(ApplicationFormating.class, args);
+		EmployeeService employeeService = applicationContext.getBean(EmployeeService.class);
+		Employee employee = new Employee();
+		empl
+		employeeService.addEmployee(new Employee(100L, "ramesh", "fadatare", "ramesh@gmail.com", 2000L));
+		employeeService.getEmployeeById(100L);
+		employeeService.getAllEmployees();
+	}
+}

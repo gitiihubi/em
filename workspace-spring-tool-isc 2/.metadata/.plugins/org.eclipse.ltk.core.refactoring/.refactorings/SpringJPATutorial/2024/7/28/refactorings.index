@@ -1,0 +1,22 @@
+1720335819532	Rename local variable 's'
+1720357728552	Rename type 'User'
+1720357847488	Rename type 'Teachers'
+1720608004276	Copy compilation unit
+1720608030418	Rename type 'LifecycleInAction'
+1720608249974	Rename method 'managedEntity'
+1720609619297	Copy compilation unit
+1720609643630	Rename type 'ForeignKeyBased'
+1720609722439	Rename local variable 'Employee'
+1720609725835	Rename local variable 'WorkStation'
+1720609789469	Rename local variable 'Jointable'
+1720613135723	Copy compilation unit
+1720613149617	Rename type 'ForeignKeyBased'
+1720613166943	Rename type 'Manytomany'
+1720613196798	Rename type 'Manytomany1'
+1720613862224	Move compilation unit
+1720613874204	Move compilation unit
+1720613912071	Move compilation unit
+1720613915258	Move compilation unit
+1720613922752	Delete element
+1720614500945	Rename local variable 'Math'
+1720614730282	Rename type 'Student'

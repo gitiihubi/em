@@ -1,0 +1,2 @@
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://www.freeland.spring.ir/springsoap/gen", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
+package ir.freeland.spring.client.gen;

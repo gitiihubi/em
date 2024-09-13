@@ -1,0 +1,19 @@
+package ir.freeland.collection;
+
+import java.util.Comparator;
+
+import ir.freeland.collection.model.Product;
+
+public class Modem   {
+	private Double price;
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+	
+	
+}

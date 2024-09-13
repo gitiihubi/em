@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.security.web.SecurityFilterChain"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.config.EnableJpaRepositories"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.domain.EntityScan"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.persistence.model.Book"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.persistence.model.Gender"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.persistence.repo.StudentRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.test.annotation.Commit"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.PhysicalNamingStrategy"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.ImplicitNamingStrategy"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.spi.LifeCycle"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.persistence.lifecycle.LifecycleInAction"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.persistence.model.Student"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.PersistenceContext"/>
+    <fullyQualifiedTypeName name="jakarta.transaction.Transactional"/>
+    <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="ir.freeland.springboot.requestparam.jackson.Product"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="ir.freeland.spring.beans.Character"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="ir.freeland.spring.formating.model.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="ir.freeland.spring.el.model.Department"/>
+</qualifiedTypeNameHistroy>

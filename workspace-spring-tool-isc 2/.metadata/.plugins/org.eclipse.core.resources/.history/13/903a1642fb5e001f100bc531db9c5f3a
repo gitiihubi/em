@@ -1,0 +1,25 @@
+package ir.freeland.spring.realworldexample;
+
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import ir.freeland.spring.realworldexample.dao.IApplicationDao;
+import ir.freeland.spring.realworldexample.service.ApplicationManager;
+
+public class ApplicationRealworld {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		
+		String database = "MySql"; //Oracle, MySql or MsSql
+		
+		//Read appContext file
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_real.xml");
+		//Get database bean from context.
+		IApplicationDao bean = context.getBean(database, IApplicationDao.class);
+		ApplicationManager app = new ApplicationManager(bean);
+		
+		app.create();
+	}
+
+}

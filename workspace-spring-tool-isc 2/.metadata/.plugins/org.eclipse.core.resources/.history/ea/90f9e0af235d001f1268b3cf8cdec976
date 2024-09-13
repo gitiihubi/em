@@ -1,0 +1,40 @@
+package ir.freeland.springboot.xml;
+
+import java.io.InputStream;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+
+import generated.Shiporder;
+
+@SpringBootApplication
+@EnableJpaRepositories("ir.freeland.springboot.persistence.repo")
+@EntityScan("ir.freeland.springboot.persistence.model")
+public class SpringbootTutorialApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootTutorialApplication.class, args);
+		
+		 InputStream is = JacksonXml.class.getResourceAsStream("/shiporder.xml");
+
+	        XmlMapper xmlMapper = new XmlMapper();
+
+	        List<Shiporder> countries = xmlMapper.readValue(is, new TypeReference<List<Shiporder>>() {
+	        });
+
+	        Map<String, Shiporder> nameToCountry = countries.stream()
+	                                                      .collect(Collectors.toMap(Shiporder::getOrderid, Function.identity()));
+
+	       // System.out.println(nameToCountry.get("England").getRegion());
+	}
+
+}

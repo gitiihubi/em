@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+    <!-- Constructor injection -->
+    <bean id="table" class="ir.freeland.spring.ioc.ItemImpl1" />
+    <bean id="digikala" class="ir.freeland.spring.ioc.Store">
+        <constructor-arg type="Item" index="0" name="item" ref="table" />
+    </bean>
+    
+    <!-- Setter injection -->
+    <bean id="chair" class="ir.freeland.spring.ioc.ItemImpl1" />
+    <bean id="okala" class="ir.freeland.spring.ioc.Store">
+        <property name="item" ref="chair" />
+    </bean>
+    
+    <!-- Autowired injection -->    
+    <bean id="item" class="ir.freeland.spring.ioc.ItemImpl1" />
+    <bean id="basalam" class="ir.freeland.spring.ioc.Store" autowire="byName">
+    </bean>
+    
+</beans>

@@ -1,0 +1,5 @@
+package ir.freeland.spring.el.model;
+
+public class Department {
+
+}

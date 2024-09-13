@@ -1,0 +1,9 @@
+
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é½¢»ùÿÿÿÿHÎRMINORZ
+CODE_SMELL
+s
+java:S2094"BRemove this empty class, write its code or make it an "interface".(é½¢»ùÿÿÿÿHÏRMINORZ
+CODE_SMELL
+“
+java:S1598"ÜThis file "lifecycle.java" should be located in "ir\freeland\springboot\persistence\lifecycle" directory, not in "D:\Projects\workspace-spring-tool-isc\SpringJPATutorial\src\main\java\ir\freeland\springboot\persistence".(ï¿øš8¾úÞ¿ˆ2HÒRCRITICALZ
+CODE_SMELL

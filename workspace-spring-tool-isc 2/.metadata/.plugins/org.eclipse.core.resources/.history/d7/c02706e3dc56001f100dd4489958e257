@@ -1,0 +1,27 @@
+package ir.freeland.spring.el;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import ir.freeland.spring.el.model.Worker;
+
+@SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass = true)
+public class ApplicationEL {
+	
+	public static void main(String[] args) throws ParseException {
+		ApplicationContext applicationContext =  SpringApplication.run(ApplicationEL.class, args);
+		Worker worker = applicationContext.getBean(Worker.class);
+		System.out.println( worker );
+		
+		worker.setDateOfBirth(new SimpleDateFormat("YYYY-MM-DD").parse("1985-12-01"));
+		
+		EvaluationContext context = new StandardEvaluationContext(employee);
+	    int birthYear = (Integer) parser.parseExpression("dateOfBirth.Year + 1900").getValue(context);	
+	    System.out.println(birthYear);
+	}
+}

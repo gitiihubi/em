@@ -1,0 +1,18 @@
+package ir.freeland.spring.el;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import ir.freeland.spring.el.model.Worker;
+
+@SpringBootApplication
+@EnableAspectJAutoProxy(proxyTargetClass = true)
+public class ApplicationAOP {
+	
+	public static void main(String[] args) {
+		ApplicationContext applicationContext =  SpringApplication.run(ApplicationEL.class, args);
+		Worker worker = applicationContext.getBean(Worker.class);
+		System.out.println( worker );
+	}
+}

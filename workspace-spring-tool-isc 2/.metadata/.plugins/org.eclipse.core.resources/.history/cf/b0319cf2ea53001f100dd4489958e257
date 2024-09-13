@@ -1,0 +1,5 @@
+package ir.freeland.spring.formating.config;
+
+public enum Config {
+
+}

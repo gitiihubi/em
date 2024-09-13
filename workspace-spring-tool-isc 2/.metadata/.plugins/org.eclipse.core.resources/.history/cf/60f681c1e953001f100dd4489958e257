@@ -1,0 +1,8 @@
+package ir.freeland.spring.formating;
+
+public class Snippet {
+	public static void main(String[] args) {
+		ir.freeland.spring.aop.formatting.model
+	}
+}
+

@@ -1,0 +1,33 @@
+package ir.freeland.collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Optional;
+
+public class OptioanlUtility {
+	public static void main(String[] args) {
+		//create
+		 String name = "Alireza";
+		Optional<String> empty = Optional.empty();
+		Optional<String> opt = Optional.of(name); //can not be null
+		Optional<String> optNullable = Optional.ofNullable(name);
+		
+		//checking presents
+		opt.isEmpty();
+		opt.isPresent();
+		
+		
+		
+		
+	}
+	
+	private void printName(String name) {
+		if(name != null) {
+			System.out.println(name.length());
+		}
+		Optional.ofNullable(name).
+		opt.ifPresent( t -> t.length()) ;
+		
+	}
+}

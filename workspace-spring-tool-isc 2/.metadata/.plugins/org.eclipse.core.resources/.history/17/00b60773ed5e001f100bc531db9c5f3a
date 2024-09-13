@@ -1,0 +1,12 @@
+package ir.freeland.spring.profile;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+
+@Configuration
+@ComponentScan("ir.freeland.spring.profile")
+@PropertySource(value = "classpath:application.properties")
+public class SpringProfilesConfig {
+
+}

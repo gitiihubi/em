@@ -1,0 +1,11 @@
+
+x	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜ùä²H‰	RMINORZ
+CODE_SMELL
+q
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿHŠ	RBLOCKERZBUG
+l
+java:S1854";Remove this useless assignment to local variable "session".(´Ï‚‘ùÿÿÿÿH‹	RMAJORZ
+CODE_SMELL
+]
+java:S1481",Remove this unused "session" local variable.(´Ï‚‘ùÿÿÿÿHŒ	RMINORZ
+CODE_SMELL

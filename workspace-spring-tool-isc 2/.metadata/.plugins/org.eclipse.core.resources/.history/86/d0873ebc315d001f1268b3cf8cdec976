@@ -1,0 +1,13 @@
+{
+	"staff": [
+		{
+			"firstName": "Alireza",
+			"lastName": "Fattahi",
+			"age": "45"
+		},
+		{
+			"firstName": "Roham",
+			"lastName": "Fattahi",
+			"age": "18"
+		}]
+}
